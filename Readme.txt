@@ -76,7 +76,7 @@ aaagggggggcccccccttttttt
 ///////////////////
 
 
-The executable is compiled for Windows x64. 
+The executable is compiled for Windows. 
 
 If you want to use it on other systems, please compile it yourself using 
 g++ std=c++11 MergeSequence.cpp

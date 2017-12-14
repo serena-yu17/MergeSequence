@@ -1,8 +1,16 @@
 This program takes a commandline argument of file path, and merges FASTA files.
 
+Usage: 
+
+MergeSequence [filename1] [filename2] ...
+
+///////////////////
+
 For instance, suppose we have a file:
 
-C:\seq.fasta
+///////////////////
+
+C:\seq1.fasta
 
 >01  5
 aaaaaaaaaaaaaaaaaaaaaaaa
@@ -16,6 +24,10 @@ aaaaaaaaaggggggggggggggg
 >04  5
 aaagggggggcccccccttttttt
 
+///////////////////
+
+C:\seq1.fasta
+
 >a1  10
 aaaaaaaaaaaaaaaaaaaaaaaa
 
@@ -28,15 +40,20 @@ aaaaaccccccccgggggggggggg
 >a4  10
 aaaaaggggcccccccccttttttt
 
+///////////////////
 
 
-and run MergeSequence C:\seq.fasta
+Commandline:
+MergeSequence C:\seq1.fasta 
 
 
 
 It will generate:
 
-seq_processed.fasta
+///////////////////
+
+seq1_processed.fasta
+
 
 >02	15
 gggggggggggggggggggggggg
@@ -56,6 +73,7 @@ aaaaaccccccccgggggggggggg
 >04	5
 aaagggggggcccccccttttttt
 
+///////////////////
 
 
 The executable is compiled for Windows x64. 

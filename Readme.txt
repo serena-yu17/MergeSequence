@@ -28,7 +28,11 @@ aaaaaccccccccgggggggggggg
 >a4  10
 aaaaaggggcccccccccttttttt
 
+
+
 and run MergeSequence C:\seq.fasta
+
+
 
 It will generate:
 
@@ -40,6 +44,9 @@ gggggggggggggggggggggggg
 >01	15
 aaaaaaaaaaaaaaaaaaaaaaaa
 
+>a4	10
+aaaaaggggcccccccccttttttt
+
 >03	5
 aaaaaaaaaggggggggggggggg
 
@@ -49,3 +56,9 @@ aaaaaccccccccgggggggggggg
 >04	5
 aaagggggggcccccccttttttt
 
+
+
+The executable is compiled for Windows x64. 
+
+If you want to use it on other systems, please compile it yourself using 
+g++ std=c++11 MergeSequence.cpp

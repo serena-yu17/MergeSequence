@@ -1,4 +1,4 @@
-This program takes a commandline argument of text files, and mergesthem based on sequence.
+This program takes a commandline argument of text files, and merges them based on sequence.
 
 Usage: 
 

@@ -1,4 +1,4 @@
-This program takes a commandline argument of file path, and merges FASTA files.
+This program takes a commandline argument of text files, and mergesthem based on sequence.
 
 Usage: 
 
@@ -6,7 +6,7 @@ MergeSequence [filename1] [filename2] ...
 
 ///////////////////
 
-For instance, suppose we have a file:
+For instance, suppose we have such files:
 
 ///////////////////
 
@@ -26,7 +26,7 @@ aaagggggggcccccccttttttt
 
 ///////////////////
 
-C:\seq1.fasta
+C:\seq2.fasta
 
 >a1  10
 aaaaaaaaaaaaaaaaaaaaaaaa
@@ -44,7 +44,7 @@ aaaaaggggcccccccccttttttt
 
 
 Commandline:
-MergeSequence C:\seq1.fasta 
+MergeSequence C:\seq1.fasta C:\seq2.fasta 
 
 
 

@@ -79,4 +79,6 @@ aaagggggggcccccccttttttt
 The executable is compiled for Windows. 
 
 If you want to use it on other systems, please compile it yourself using 
+
+g++ -c stdafx.h -o stdafx.h.gch
 g++ std=c++11 MergeSequence.cpp
